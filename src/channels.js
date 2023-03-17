@@ -1,5 +1,5 @@
 // Import the database connection pool from db.js module
-const db = require('./db');
+const db = require('../db');
 
 // Define an asynchronous function to create or update a channel in the channel_list table
 async function createOrUpdateChannel(name, channelId) {

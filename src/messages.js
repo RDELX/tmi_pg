@@ -1,5 +1,5 @@
 // Importing necessary modules
-const db = require('./db');
+const db = require('../db');
 const channels = require('./channels');
 const users = require('./users');
 

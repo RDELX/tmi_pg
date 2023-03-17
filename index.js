@@ -12,6 +12,7 @@ client.on('connected', () => {
     console.log(`Connected to ${client.getChannels().length} channel(s)`);
 });
 
+
 // Set up a listener for when a new message is received
 client.on('message', async (channel, tags, message, self) => {
     // Ignore messages sent by the bot itself

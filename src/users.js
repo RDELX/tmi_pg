@@ -1,7 +1,7 @@
 // users.js
 
 // import the database client
-const db = require('./db');
+const db = require('../db');
 
 // create or update a user in the users table
 async function createOrUpdateUser(name, userId) {
