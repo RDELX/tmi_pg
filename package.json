@@ -1,0 +1,23 @@
+{
+  "name": "tmi_pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDELX/tmi_pg.git"
+  },
+  "author": "Galen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RDELX/tmi_pg/issues"
+  },
+  "homepage": "https://github.com/RDELX/tmi_pg#readme",
+  "dependencies": {
+    "pg": "^8.10.0",
+    "tmi.js": "^1.8.5"
+  }
+}
