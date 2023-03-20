@@ -1,4 +1,21 @@
-```
+# tmi_PG
+
+Twitch chat logger with PostgreSQL
+
+## Installation
+
+* Clone the rope
+
+OR
+
+* Docker https://hub.docker.com/r/awniahades/tmi_pg
+
+
+## Usage
+
+You will need to run this query first for now.
+
+```SQL
 CREATE TABLE IF NOT EXISTS users
 (
     id      SERIAL PRIMARY KEY,
@@ -20,5 +37,4 @@ CREATE TABLE messages
     created_at TIMESTAMP DEFAULT NOW(),
     user_id    INTEGER      NOT NULL REFERENCES users (user_id) ON DELETE CASCADE,
     channel_id INTEGER      NOT NULL REFERENCES channel_list (channel_id) ON DELETE CASCADE
-);
 ```
