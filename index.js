@@ -4,7 +4,7 @@ const messages = require('./src/messages');
 
 // Create a new TMI.js client instance and configure it to listen on the specified channels
 const client = new tmi.client({
-    channels: [ 'channel' ]
+    channels: [ 'Channel' ]
 });
 
 // Set up a listener for when the client is connected

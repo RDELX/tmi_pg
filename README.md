@@ -4,7 +4,7 @@ Twitch chat logger with PostgreSQL
 
 ## Installation
 
-* Clone the rope
+* Clone the repo and edit the db.js file with your database credentials then edit index.js for the channels you want to log.
 
 OR
 
