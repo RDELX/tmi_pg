@@ -6,11 +6,11 @@ console.log(process.env);
 
 // Create a new Pool object with database connection configuration
 const pool = new Pool({
-    user: process.env.user, // Database user name
-    host: process.env.host, // Database host
-    database: process.env.database, // Database name
-    password: process.env.password, // Database password
-    port: 5432, // Database port
+    user: 'YourDbUsername', // Database user name
+    host: 'YourDbAddress, Use localhost for local db', // Database host
+    database: 'DatabaseName', // Database name
+    password: 'DatabasePassword', // Database password
+    port: 'Your database port, default is 5432', // Database port
 });
 
 
