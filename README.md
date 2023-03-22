@@ -37,4 +37,5 @@ CREATE TABLE messages
     created_at TIMESTAMP DEFAULT NOW(),
     user_id    INTEGER      NOT NULL REFERENCES users (user_id) ON DELETE CASCADE,
     channel_id INTEGER      NOT NULL REFERENCES channel_list (channel_id) ON DELETE CASCADE
+    );
 ```
